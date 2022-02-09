@@ -1,9 +1,9 @@
 version: "3.8"
 
 services:
-  app:
-    container_name: app-dev
-    image: app-dev
+  site:
+    container_name: site
+    image: site
     build:
       context: .
     volumes:
